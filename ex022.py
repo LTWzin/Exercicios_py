@@ -1,0 +1,6 @@
+frase = str(input('Digite seu nome: '))
+print(frase.upper())
+print(frase.lower())
+frase = frase.split()
+print('Há exatamante ', len(('').join(frase)), ' letras nesse nome completo')
+print('Há', len(frase[0]), 'letras no primeiro nome')

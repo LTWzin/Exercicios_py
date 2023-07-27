@@ -7,7 +7,6 @@ for c in range(0, 7):
         numeros[0].append(numero)
     else:
         numeros[1].append(numero)
-print(numeros)
 numeros[0].sort()
 numeros[1].sort()
-print(numeros)
+print(f'Os numeros impares foram {numeros[0]}\nOs numeros pares foram {numeros[1]}')

@@ -12,7 +12,7 @@ for c, v in jogadores.items():
     print(f'O {c} tirou: {v}')
     sleep(0.5)
 print('-=' * 19)
-sleep(1)
+sleep(0.8)
 rank = sorted(jogadores.items(), key= itemgetter(1), reverse=True)
 for indice, item in enumerate(rank):
     print(f'EM {indice + 1}º LUGAR: {item[0]} COM {item[1]}')

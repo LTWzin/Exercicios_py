@@ -1,11 +1,11 @@
 def fatorial(num=1, show=False):
     a = 1
-    if show == False:  # Sem Mostrar a multiplicação
+    if show == False:  # Sem Mostrar a multiplicao
         while num != 1:
             a *= num
             num -= 1
         return a
-    else:  # Mostrando a multiplicação
+    else:  # Mostrando a multiplicao
         while num != 1:
             print(f'{num} x ', end= '')
             a *= num

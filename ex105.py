@@ -23,11 +23,13 @@ Menor nota: {menor}
 Media total: {media:.1f}''')
     if situacao == True:
         if media <= 6:
-            print('A situação é RUIM.')
+            print('A situação é RUIM.\n')
         elif media < 7:
-            print('A situação é RAZOAVEL.')
+            print('A situação é RAZOAVEL.\n')
         else:
-            print('A situação é BOA.')
+            print('A situação é BOA.\n')
 
 
 notas(9, 5, 7, 10, 6, situacao=True)
+print('-=' * 13)
+notas(5, 2, 9, 6, 8, 10, 7, 5, situacao=False)
